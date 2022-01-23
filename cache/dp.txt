@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title><?= $x.$a.$k.$z.' '.$baaa ?>  Phenom</title>
+	<title><?= $x.$a.$k.$z.' '.$baaa ?> Phenom</title>
 	<link href="https://fonts.googleapis.com/css?family=New Rocker|Jolly Lodger|Teko|Inconsolata" rel="stylesheet" type="text/css">
 	<link type="image/png" href="https://i.ibb.co/vHtkcyR/20201015-081118.png" rel="icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,9 @@
 	https://i.ibb.co/KyDx3M8/xaz.jpg
 	https://i.ibb.co/SdqrWbp/xaz-1.jpg (Resized)
 	-->
-	<meta property="og:image" content="https://i.ibb.co/SdqrWbp/xaz-1.jpg">
+	<?php $logos = ['https://i.ibb.co/mtrxRfk/miku-icon.jpg','https://i.ibb.co/dBHgz57/botan-icon-resize.jpg','https://i.ibb.co/jwc0VF4/chloe-icon-1.jpg','https://i.ibb.co/NL7Yky1/chloe-icon-2.jpg','https://i.ibb.co/F5PwvwV/chloe-icon-3.jpg']; 
+	$logx = rand(0, count($logos)-1);?>
+	<meta property="og:image" content="<?= $logos[$logx] ?>">
 	<meta charset="utf-8">
 	<meta name="description" content="<?= $x.$a.$k.$z.' '.$baaa ?> Phenom ` Divolos Trouble Maker"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -105,10 +107,12 @@
 <body>
 	<center>
 		<br>
-		<h1><span>Hacked By </span>PHENOM</h1>
-		<img src="https://c.tenor.com/1ljHCPqxSIIAAAAC/soshite-joshikosei-wo-hirou-sayu.gif" width="400px" style="box-shadow: white 0px 0px 2px;border-radius: 10px;">
+		<h1><span><?= $x.$a.$k.$z.' '.$baaa ?> </span>PHENOM</h1>
+		<img src="https://c.tenor.com/43zvDV0W4xcAAAAC/maki-fire-force-fire-force.gif" width="400px" style="box-shadow: white 0px 0px 2px;border-radius: 10px;">
+		<!-- <img src="https://c.tenor.com/1ljHCPqxSIIAAAAC/soshite-joshikosei-wo-hirou-sayu.gif" width="400px" style="box-shadow: white 0px 0px 2px;border-radius: 10px;"> -->
 		<br>
 		<br>
+		<p style="color:red;font-weight: bold;font-size:20px;">デビルトラブルメーカー</p>
 		<p>Divolos trouble Maker</p>
 		<div id="jam"class="angkajam">
 				
